@@ -1,0 +1,18 @@
+"sk_sandbrick"
+{
+        "name" "Sandbrick"
+        "description" "Train your shooting skills on this map"
+
+	// Properties for RTS camera
+	"rts_camera"
+	{
+		"zoffset"		"75"		// offset the z height for maps way-off
+		"default_height" 	"1000"		// Default height of the rts camera
+		"max_height"		"1600"		// Max height above the adjusted zoffset the camera can go
+		"min_height"		"800"		// Min height above the adjusted zoffset the camera can go
+		"low_pitch"		"50"		// Angle of pitch when camera is at min_height
+		"high_pitch"		"80"		// Angle of pitch when camera is at max_height
+		"low_fov"		"0"		// FOV angle difference when camera is at min_height	(MUST BE >= 0)
+		"high_fov"		"10"		// FOV angle difference when camera is at max_height
+	}
+}
